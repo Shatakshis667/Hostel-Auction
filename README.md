@@ -1,6 +1,6 @@
 # Online auction platform
 
-A one-stop solution for NIT Kurukshetra students that provides trustworthy solutions and bridges the gap between the auctioneers and bidders.
+A one-stop solution for college students that provides trustworthy solutions and bridges the gap between the auctioneers and bidders.
 
 ## Stack
 
