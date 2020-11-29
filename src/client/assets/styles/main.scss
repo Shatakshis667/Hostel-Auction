@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+html, body, #root{
+  height: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+input, textarea{
+  background: white;
+}
+
+.main-content{
+  padding-top: 60px;
+  min-height: calc(100% - 60px);
+  >section>div[class$="container"]{
+    width: 1200px;
+  }
+}
+
+
+@media all and (max-width: 1200px) {
+  .main-content{
+    padding-top: 60px;
+    min-height: calc(100% - 60px);
+    >section>div[class$="container"]{
+      width: 100%
+    }
+  }
+}
+
+
